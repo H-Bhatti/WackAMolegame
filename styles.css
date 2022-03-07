@@ -1,0 +1,81 @@
+body{
+
+
+    min-height: 100vh;
+    padding-top: 1px;
+    background-color: #12182B;
+
+}
+
+.grid {
+    margin: 0 auto;
+    grid-template-columns:repeat(3, 202px);
+    grid-template-rows:repeat(3, 202px);
+    max-width: 606px;
+	display: grid;
+	
+}
+
+.box {
+	height: 202px;
+	width: 202px;
+	color: white;
+    border: 1px solid white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+    font-size: 25px;
+}
+.box:hover
+{
+    border: 2px solid greenyellow;
+    color: greenyellow;
+}
+
+.mole {
+	background-image: url("mole.jpg");
+	background-size: cover;
+}
+
+h1
+{
+    color: white;
+    text-align: center;
+    
+    font-size: 45px;
+}
+h2
+{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+h4
+{
+    color: white;
+    text-align: center;
+    font-size: 80px;
+}
+.button 
+{       
+
+    color: #357780;
+    border-radius: 0.4rem;
+    border: 3px solid;
+    cursor: pointer;
+    font-size: 25px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+
+}
+.button:hover
+{
+    color: #20d3eb;
+}
+.button:focus-visible
+{
+    color: #16191a;
+}
